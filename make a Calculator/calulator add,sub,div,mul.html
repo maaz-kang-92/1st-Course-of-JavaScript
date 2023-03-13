@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculator:</title>
+    
+    <style type="text/css">
+    #btn-1 {
+    width:70px;
+    height:30px;
+    border: 1px solid black;
+    border-radius:6px;
+    }
+    #btn-2 {
+        width:110px;
+    height:30px;
+    border: 1px solid black;
+    border-radius:6px;
+    }
+    #btn-3 {
+        width:70px;
+    height:30px;
+    border: 1px solid black;
+    border-radius:6px;
+    }
+
+    .btn-4 {
+    width:70px;
+    height:30px;
+    top: 40px;
+    margin-left: 32px;
+    position:relative;
+    top: 45px;
+    left:-202px;
+    border: 1px solid black;
+    border-radius:6px;
+    }
+    #num1-el {
+    margin-left:100px;
+    position: relative; /*..for gap between both...*/
+    left:-10px;
+    }
+    #totalValue-el {
+        margin-left: 70px;
+        
+    }
+
+    </style>
+</head>
+<body>
+    <u id="num1-el"></u>
+    <u id="num2-el"></u>  <br> <br>
+    <button id="btn-1" onclick="add()">Add</button>
+    <button id="btn-2" onclick="subtract()">Subtract</button>
+    <button id="btn-3" onclick="divide()">Divide</button>
+    <button class="btn-4" onclick="multiply()">Multiply</button> <br/> <br/> <br/> <br/>
+
+     <u id="totalValue-el"> Total Value: </u> <br>
+
+    <script src="javaScript.js"></script>
+    
+</body>
+</html>
