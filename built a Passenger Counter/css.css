@@ -1,0 +1,97 @@
+/* to make beautiful botton... */
+#Increment-btn {
+    background-color:white;
+    font-size: 18px;
+    color:#03e603;
+    font-weight:bold;
+    height:40px;
+    width:170px;
+    border:none;
+    border-radius:7px;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-top:3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+
+#save-btn {
+    background-color:white;
+    font-size: 18px;
+    color:#1d59b3;
+    font-weight:bold;
+    height:40px;
+    width:170px;
+    border:none;
+    border-radius:7px;
+    margin-top: 0px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+
+#count-el {
+    margin-left:121px;
+    margin-bottom: 4px;
+    margin-top:4px;
+}
+
+div {
+    font-size:23px;
+    /*check out others bottom of the page. 1turn is equal to 360*/
+    background:repeating-linear-gradient(1turn,#03e603, #1d59b3);
+    width:350px;
+    height:450px;
+    color:white;
+    margin-top:120px;
+    margin-left:500px;
+    padding-left:60px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border:none;
+    border-top-left-radius:30px;
+    border-bottom-right-radius:30px;
+}
+
+#totalPeople {
+    padding-left:6px;
+    margin-bottom: 24px;
+    
+
+}
+
+
+
+    /* background:linear-gradient(to right, #1d59b3, #03e603);  */
+
+    /*   background:radial-gradient(rgb(27, 209, 255), rgb(13, 13, 196), rgb(255, 2, 251)); */    /*combination of the three different color not with #color*/
+    
+        
+    /* 20pexel defined the size of the color that hold place.....last line
+       deg means change the direction of the color without degree sequence of color placed... */
+    /*  
+        background:repeating-linear-gradient(
+         25deg,             rotate according to degree....
+         yellow,            1st color define first and then its pexel 
+         yellow 10px,
+         red 10px,          second color define with its pexel
+         red  20px determine size of both the colors and then repeat after that pexel 
+         );  
+    */
+
+    /*
+      background:repeating-linear-gradient(to left top, blue, red); starting form buttom right with blue and finished with red to top left..
+     
+    /* 
+        to make the circle use this... 
+        background:repeating-radial-gradient(
+        circle at 0 0, 
+        #1d59b3,
+        #e0e2e0,
+        #03e603 50px    50px means the size of the all colors 
+        ); 
+    */
