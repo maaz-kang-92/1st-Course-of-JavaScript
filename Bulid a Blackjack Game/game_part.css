@@ -1,0 +1,42 @@
+h1 {
+    color:goldenrod;
+}
+
+body {
+    background-image: url("imaage.jpg");
+    background-size:cover;               /*image as a full background...*/
+    color:white;
+    font-size: 35px;
+    font-weight:bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    margin-top:110px;
+    
+}
+
+#message-el {
+    font-style: italic;
+}
+
+#strt-btn {
+    background-color:goldenrod;
+    color:green;
+    font-size:23px;
+    font-weight: bold;
+    width:280px;
+    height:45px;
+    border:none;
+    border-radius:5px;
+}
+
+#new-btn {
+    background-color:goldenrod;
+    color:green;
+    font-size:23px;
+    font-weight: bold;
+    width:280px;
+    height:45px;
+    border:none;
+    border-radius:5px;
+    margin-top:15px;
+}
