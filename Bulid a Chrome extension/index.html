@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <title>extension_part</title>
+<style type="text/css">
+.enterAddress {
+  font-size: 22px;
+  margin-bottom:-10px;
+}
+
+.htmlTag {
+  font-size: 22px;
+  margin-bottom:0px;
+}
+
+body {
+    margin:0px;
+    padding:10px; 
+    font-family: Arial, Helvetica, sans-serif;
+    min-width:500px; /*500px fixed either screen minimum or maximum */
+}
+
+/* style a button with input tag. */
+input {
+   width:60%;
+   height:35px;
+   font-size:19px;
+   padding-left:10px;
+   padding-right:10px;
+   padding-top:5px;
+   padding-bottom:5px;
+   box-sizing:border-box;  /* do it later */
+   border: 1px solid #5f9241;
+   border-radius:5px;
+   background-color:rgb(232, 232, 232);
+   
+}
+#input-btn {
+    background:#399503;
+    height:40px;
+    width: 135px;
+    color:white;
+    padding:10px 15px;
+    border:none;
+    font-weight:bold;
+    margin-top:7px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#delete-btn {
+  border: 1.5px solid green;
+  background-color:white;
+  height:40px;
+  width: 135px;
+  font-weight:bold;
+  color:green;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#save-tab {
+    background:#399503;
+    height:40px;
+    width: 135px;
+    color:white;
+    padding:10px 15px;
+    border:none;
+    font-weight:bold;
+    margin-top:7px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+ #pg-el {
+    font-size: 22px;
+    padding-left:0px;
+ }
+
+/* Style the list <li> that is used in javaScript....... */
+li {
+    list-style:none;
+    margin-top:7px;    /* between the lists value. */
+}
+
+/* just green for list link not other link */
+li a {
+    color:green;
+}
+
+</style>
+
+</head>
+<body>
+
+    <p class="enterAddress">Please Enter the Address: </p> <br/>
+<!-- Create an input element with type="text" and id="text-el" -->
+<input type="text" id="text-el">   <br/>
+
+<!-- Create an Save Input button with id="input-btn" -->
+<button id="input-btn">SAVE INPUT</button> 
+
+<!-- Create a Save tab -->
+<button id="save-tab">SAVE TAB</button>
+
+<!-- Create an Delete ALL button with id="input-btn" -->
+<button id="delete-btn">DELETE ALL</button> 
+
+
+<p id="pg-el"></p> <br/>
+
+<script src="javaScript.js">
+</script>
+
+</body>
+</html>
